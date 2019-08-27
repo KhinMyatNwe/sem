@@ -15,14 +15,14 @@ public class App
         // Disconnect from database.......
         a.disconnect();
     }
-    /**
-     * Connection to MySQL database.
-     */
+//    /**
+//     * Connection to MySQL database.
+//     */
     private Connection con = null;
 
-    /**
-     * Connect to the MySQL database.
-     */
+//    /**
+//     * Connect to the MySQL database.
+//     */
     public void connect()
     {
         try
@@ -61,9 +61,7 @@ public class App
         }
     }
 
-    /**
-     * Disconnect from the MySQL database.
-     */
+//[
     public void disconnect()
     {
         if (con != null)
